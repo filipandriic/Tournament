@@ -19,11 +19,11 @@ igrac* last = NULL;
 igrac* root = NULL;
 int high = 0;
 
-void UnosImena(igrac** novi) {
+void InsertName(igrac** novi) {
 	int i = 0;
 	char c;
 
-	printf("Unesi ime igraca: ");
+	printf("Insert name of the player: ");
 	while ((c = getchar()) != '\n') {
 		(*novi)->ime[i] = c;
 		i++;
@@ -31,11 +31,11 @@ void UnosImena(igrac** novi) {
 	(*novi)->ime[i] = '\0';
 }
 
-void UnosPrezimena(igrac** novi) {
+void InsertSurname(igrac** novi) {
 	int i = 0;
 	char c;
 
-	printf("Unesi prezime igraca: ");
+	printf("Insert surname of the player: ");
 	while ((c = getchar()) != '\n') {
 		(*novi)->prezime[i] = c;
 		i++;
@@ -65,7 +65,7 @@ void CreateQualifyQueue(igrac** niz, int kvalut, int kvalig, int n) {
 	}
 }
 
-void IspisiRed() {
+void PrintQueue() {
 	igrac* tek = first;
 	printf("\n");
 
@@ -159,12 +159,12 @@ void CreateTree(igrac** niz, int kvalut, int kvalig, int n, int numMatch) {
 		unutrasnji->left = pom1;
 		unutrasnji->right = pom2;
 		unutrasnji->next = NULL;
-		printf("Pobednik utakmice izmedju %d. i %d. je: ", pom1->redniBr, pom2->redniBr);
+		printf("Winner of the game between %d. and %d. is: ", pom1->redniBr, pom2->redniBr);
 		while (g == 0) {
 			scanf("%d", &unutrasnji->redniBr);
 			if (unutrasnji->redniBr != pom1->redniBr && unutrasnji->redniBr != pom2->redniBr) {
 				g = 0;
-				printf("Pokusaj ponovo: ");
+				printf("Try again: ");
 			}
 			else
 				g = -1;
@@ -202,7 +202,7 @@ void CreateTree(igrac** niz, int kvalut, int kvalig, int n, int numMatch) {
 
 	printf("\n");
 	root = Pop();
-	printf("Pobednik je igrac sa rednim brojem (%d)!\n", root->redniBr);
+	printf("The winner is the player with the number (%d)!\n", root->redniBr);
 }
 
 void print2DUtil(igrac* root, int space) {
@@ -276,13 +276,13 @@ void LevelOrder(int numNode, int n) {
  		match++;
 	}
 	printf("\n");
-	printf("Broj cvorova je: %d\n", numNode);
+	printf("Number of nodes: %d\n", numNode);
 }
 
 void ShowRound(igrac* root) {
 	int choice;
 
-	printf("Koju rundu zelite da vidite? ");
+	printf("Which round do you want to see? ");
 	scanf("%d", &choice);
 
 	Push(root);
@@ -330,19 +330,19 @@ int main() {
 
 	while (1) {
 
-		printf("1. Unesite igrace.\n"
-			"2. Ispisi kvalifikacije.\n"
-			"3. Napravi stablo i odredi pobednika.\n"
-			"4. Ispisi stablo.\n"
-			"5. Odredi broj cvorova i ispisi stablo level orderom.\n"
-			"6. Obrisi stablo.\n"
-			"0. Izadji iz programa.\n"
-			"Vas izbor? ");
+		printf("1. Add players.\n"
+			"2. Print qualifications.\n"
+			"3. Make a stable and see who is a winner.\n"
+			"4. Print stable.\n"
+			"5. Number of nodes and level order of the tree.\n"
+			"6. Delete the stable.\n"
+			"0. Exit.\n"
+			"Your choice? ");
 		scanf("%d", &choice);
 
 		switch (choice) {
 		case 1:
-			printf("Broj igraca: ");
+			printf("Number of players: ");
 			scanf("%d", &n);
 			getchar();
 			while (maxstep2 <= n)
