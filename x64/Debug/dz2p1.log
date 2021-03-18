@@ -1,0 +1,25 @@
+﻿  dz2p1.c
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(57): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(62): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(75): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(79): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(94): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(107): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(119): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(125): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(159): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(160): warning C4133: '=': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(134): warning C4101: 'old': unreferenced local variable
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(217): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(227): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(258): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(260): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(292): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(294): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(313): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(315): warning C4133: 'function': incompatible types - from 'igrac *' to 'igrac *'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(373): warning C4047: 'function': 'igrac **' differs in levels of indirection from 'igrac *(*)[1000]'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(373): warning C4024: 'CreateQualifyQueue': different types for formal and actual parameter 1
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(381): warning C4047: 'function': 'igrac **' differs in levels of indirection from 'igrac *(*)[1000]'
+c:\users\filip\desktop\asp domaco\dz2p1\dz2p1\dz2p1.c(381): warning C4024: 'CreateTree': different types for formal and actual parameter 1
+  dz2p1.vcxproj -> C:\Users\Filip\Desktop\ASP domaco\dz2p1\x64\Debug\dz2p1.exe
